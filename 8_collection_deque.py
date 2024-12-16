@@ -5,3 +5,8 @@ from collections import deque
 
 d = deque("hello")
 print(d)
+
+d.append(4) # append in the end of the list 
+d.appendleft(5) # append in the left end of the list 
+
+print(d)
