@@ -30,3 +30,15 @@ print(f"left moved deque: {d}")
 
 d.rotate(2) # if i give the (+) numbers it moves the elements right side
 print(f"right moved deque: {d}")
+
+# deque with maxlen 
+e = deque("prakash",maxlen=7)
+print(e)
+e.extendleft("ih")
+print(e)
+"""
+the maxlen method used for defining a max length of a deque. 
+if you add or extend a list it removes the elements from the list automatically
+"""
+
+
