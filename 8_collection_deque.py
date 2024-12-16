@@ -13,3 +13,13 @@ print(d)
 d.pop() # remove or pop the last element of the list or which index we want to remove
 d.popleft() # removes the first element on the list 
 print(d)
+
+# extend method in deque
+for i in range(1,10,2):
+    d.extend(f"{i}") # it addd the element and extend the list at the end
+print(d)
+
+# extendleft method
+for i in range(2,10,2):
+    d.extendleft(f"{i}")
+print(d)
