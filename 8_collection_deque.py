@@ -23,3 +23,10 @@ print(d)
 for i in range(2,10,2):
     d.extendleft(f"{i}")
 print(d)
+
+# rotate the deque
+d.rotate(-1) # if i give (-) numbers it moves the element left side
+print(f"left moved deque: {d}")
+
+d.rotate(2) # if i give the (+) numbers it moves the elements right side
+print(f"right moved deque: {d}")
